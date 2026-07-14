@@ -1,6 +1,6 @@
 # RAG Knowledge Agent
 
-基于本地 LLM（Ollama）的 RAG 私有知识库问答 Agent。
+自己练手做了一个个人助手，基于 LLM（Ollama）的 RAG 问答 Agent，没有用langchain，因为这个工程主要是来脸RAG的，后面再换成langchain架构看看，对比一下。
 
 ## 快速开始
 
