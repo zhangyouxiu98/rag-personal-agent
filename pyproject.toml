@@ -1,0 +1,12 @@
+[project]
+name = "rag-knowledge-agent"
+version = "1.0.0"
+description = "RAG-based private knowledge base Q&A Agent powered by local LLM (Ollama)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+rag-agent = "run:main"
+
+[tool.setuptools.packages.find]
+include = ["agent*", "configs*"]

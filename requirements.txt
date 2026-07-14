@@ -1,0 +1,27 @@
+# LLM Client (Ollama OpenAI-compatible interface)
+openai>=1.0.0
+httpx>=0.27.0
+
+# Vector Store
+chromadb>=0.5.0
+
+# Document Parsing
+PyMuPDF>=1.24.0
+
+# Configuration
+PyYAML>=6.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.66.0
+loguru>=0.7.0
+
+# Optional: Web search fallback
+duckduckgo_search>=6.0
+
+# Optional: Fallback embeddings when Ollama unavailable
+sentence-transformers>=2.2.0
+
+# Optional: REST API server
+# fastapi>=0.109.0
+# uvicorn>=0.27.0

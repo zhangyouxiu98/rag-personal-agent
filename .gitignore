@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# User documents (keep private)
+data/documents/*
+!data/documents/.gitkeep
+
+# ChromaDB persistence
+data/embeddings/*
+!data/embeddings/.gitkeep
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

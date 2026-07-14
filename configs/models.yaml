@@ -1,0 +1,28 @@
+chat_models:
+  qwen2:7b:
+    provider: ollama
+    context_window: 32768
+    supports_streaming: true
+  llama3:8b:
+    provider: ollama
+    context_window: 8192
+    supports_streaming: true
+  mistral:7b:
+    provider: ollama
+    context_window: 32768
+    supports_streaming: true
+  deepseek-r1:7b:
+    provider: ollama
+    context_window: 131072
+    supports_streaming: true
+
+embedding_models:
+  nomic-embed-text:
+    provider: ollama
+    dimension: 768
+  bge-m3:
+    provider: ollama
+    dimension: 1024
+  all-MiniLM-L6-v2:
+    provider: sentence-transformers
+    dimension: 384
